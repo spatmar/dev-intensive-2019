@@ -7,7 +7,6 @@ object Utils {
         val parts : List<String>? = fullName?.split(" ")
         val firstName = if (parts?.getOrNull(0).isNullOrBlank()) null else parts?.getOrNull(0)
         val lastName = if (parts?.getOrNull(1).isNullOrBlank()) null else parts?.getOrNull(1)
-//        return Pair(firstName, lastName)
         return firstName to lastName
     }
 
