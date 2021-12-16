@@ -1,15 +1,8 @@
 package ru.skillbranch.devintensive.extensions
 
-import android.os.Build
-import androidx.annotation.RequiresApi
-import ru.skillbranch.devintensive.models.User
-import java.lang.IllegalStateException
 import java.text.SimpleDateFormat
 import java.util.*
 import kotlin.math.abs
-import kotlin.time.Duration.Companion.days
-import kotlin.time.Duration.Companion.hours
-import kotlin.time.Duration.Companion.seconds
 
 const val SECOND = 1000L
 const val MINUTE = 60 * SECOND
